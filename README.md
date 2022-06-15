@@ -1,6 +1,6 @@
 
 <!-- Please update value in the {}  -->
-=======
+
 # Interior-Design<!-- Please update value in the {}  -->
 
 
@@ -42,7 +42,7 @@
 
 
 ![screenshot](<./images/Screenshot%20(17).png>)
-=======
+
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
@@ -59,7 +59,6 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 
 #### Keep Trying.
 
-=======
 [Demo](https://shubham-coderr.github.io/Interior-Design/)
    
 - What was your experience?
@@ -94,6 +93,5 @@ This application/site was created as a submission to a [DevChallenges](https://d
 - GitHub [@Shubham-coderr](https://{github.com/Shubham-coderr})
 
 - Twitter [@Shubham_coderr](https://{twitter.com/Shubham_coderr})
-=======
-- Twitter [Shubham_coderr](https://{twitter.com/Shubham_coderr})
+
 
