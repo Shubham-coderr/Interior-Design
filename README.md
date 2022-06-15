@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 <!-- Please update value in the {}  -->
+=======
+# Interior-Design<!-- Please update value in the {}  -->
+>>>>>>> 84b4f083a024da72166c621c6ce4b12d08ee424a
 
 <h1 align="center">Interior Design</h1>
 
@@ -36,11 +40,16 @@
 
 ## Overview
 
+<<<<<<< HEAD
 ![screenshot](<./images/Screenshot%20(17).png>)
+=======
+![screenshot] (https://github.com/Shubham-coderr/Interior-Design/blob/main/images/Screenshot%20(17).png)
+>>>>>>> 84b4f083a024da72166c621c6ce4b12d08ee424a
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
 - Where can I see your demo?
+<<<<<<< HEAD
 - What was your experience?
 
 #### Quiet a intresting experience. This was a really good challenge.
@@ -53,6 +62,16 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 
 #### Keep Trying.
 
+=======
+[Demo](https://shubham-coderr.github.io/Interior-Design/)
+   
+- What was your experience?
+#### Quiet a intresting experience. This was a really good challenge.
+- What have you learned/improved?
+#### In this project I learned about Animations
+- Your wisdom? :)
+#### Keep Trying.
+>>>>>>> 84b4f083a024da72166c621c6ce4b12d08ee424a
 ### Built With
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
@@ -77,4 +96,8 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 - Website [your-website.com](https://{your-web-site-link})
 - GitHub [@Shubham-coderr](https://{github.com/Shubham-coderr})
+<<<<<<< HEAD
 - Twitter [@Shubham_coderr](https://{twitter.com/Shubham_coderr})
+=======
+- Twitter [Shubham_coderr](https://{twitter.com/Shubham_coderr})
+>>>>>>> 84b4f083a024da72166c621c6ce4b12d08ee424a
