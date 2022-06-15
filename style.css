@@ -1,0 +1,356 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+
+body {
+  background: #181719;
+  color: aliceblue;
+  margin: 1.3em;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.logo {
+  color: white;
+  margin: 1em;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  border: 1px solid white;
+  padding: 0.5em;
+}
+
+nav {
+  position: fixed;
+  right: 0;
+  top: 0;
+  background: #181719;
+  height: 100vh;
+  width: 100%;
+  z-index: 5;
+  transform: translateX(100%);
+  transition: transform 0.5s ease-in-out;
+}
+ul {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  list-style-type: none;
+  margin-top: 13em;
+  text-align: center;
+}
+ul a {
+  color: white;
+  font-size: 1.3rem;
+  padding: 0.7em;
+  display: block;
+  line-height: 1.5em;
+}
+ul a:hover {
+  text-decoration: underline;
+}
+
+.close {
+  float: right;
+  margin: 1.8rem;
+  width: 1.7em;
+  height: 1.5em;
+  cursor: pointer;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+header .menu {
+  width: 2em;
+  height: 2.5em;
+  margin-top: -0.6em;
+  cursor: pointer;
+}
+
+section.hero {
+  animation: moveDown 1s ease-in-out forwards;
+  opacity: 0;
+}
+
+section.hero h1 {
+  font-size: 2.5rem;
+}
+
+.intro {
+  font-family: "Montserrat", sans-serif;
+  word-spacing: 0.2rem;
+  line-height: 1.2rem;
+  margin-right: 3em;
+}
+
+section.hero a {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.arrow {
+  width: 1.5em;
+  height: 1.5em;
+  position: relative;
+  top: 0.57em;
+  left: 0.6em;
+}
+
+.hero-img img {
+  background-size: cover;
+  width: 360px;
+  height: 275px;
+  margin-top: 3em;
+  animation: introload 2s;
+}
+
+.girl-img {
+  border-radius: 50%;
+  width: 3em;
+  height: 3em;
+}
+
+.conatiner {
+  position: relative;
+  margin-bottom: 25px;
+  top: -3.5em;
+  left: 1.5em;
+  width: 300px;
+  height: 140px;
+  padding: 15px 15px;
+  background-color: #181719;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 1px 5px 5px 0px #111011;
+}
+
+.card {
+  display: flex;
+  margin-top: 10px;
+}
+.names {
+  font-family: montserrat, sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin-left: 1em;
+}
+.names h2 {
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+.names h3 {
+  position: relative;
+  top: -20px;
+  font-size: 0.7rem;
+  font-weight: normal;
+}
+
+.card-note {
+  margin-top: 3px;
+  font-family: Lora, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
+footer p {
+  font-family: montserrat, sans-serif;
+  color: #a9a9a9;
+  font-size: 0.9rem;
+  text-align: center;
+}
+span {
+  font-weight: 700;
+}
+.open-nav {
+  transform: translateX(0%);
+}
+
+/* MEDIA QUERIES */
+
+@media (min-width: 669px) {
+  body {
+    margin: 2.5em;
+  }
+  .logo {
+    border: 1px solid white;
+    padding: 0.5em;
+  }
+
+  .hero-img img {
+    background-size: cover;
+    width: 480px;
+    height: 385px;
+    margin-top: 3em;
+  }
+  .conatiner {
+    left: 8em;
+  }
+  nav {
+    display: none;
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+  }
+  .open-nav {
+    transform: translateX(40%);
+  }
+  ul {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    list-style-type: none;
+    margin-top: 10em;
+    text-align: center;
+    position: relative;
+    right: 10rem;
+  }
+  ul a {
+    font-size: 1.5rem;
+  }
+  ul a:hover {
+    text-decoration: underline;
+  }
+
+  .close {
+    position: relative;
+    float: right;
+    margin: 1.8rem;
+    width: 1.7em;
+    height: 1.5em;
+    right: 16em;
+  }
+  section.hero h1 {
+    font-size: 3rem;
+  }
+  .intro {
+    font-family: "Montserrat", sans-serif;
+    word-spacing: 0.1rem;
+    line-height: 1.4rem;
+    margin-right: 10em;
+  }
+}
+
+@media (min-width: 769px) {
+  body {
+    margin: 2.5em;
+  }
+
+  .logo {
+    border: 1px solid white;
+    padding: 0.5em;
+    height: 12px;
+  }
+  header .menu {
+    display: none;
+  }
+  nav {
+    transform: translateX(0);
+    display: block;
+    height: auto;
+    width: auto;
+    background: none;
+    position: unset;
+  }
+  .close {
+    display: none;
+  }
+  ul {
+    display: flex;
+    margin-top: -1em;
+    left: 0;
+  }
+  ul a {
+    color: white;
+    font-size: 1rem;
+    padding: 1.5em;
+  }
+
+  ul a:hover {
+    text-decoration: underline;
+  }
+
+  .hero-img img {
+    background-size: cover;
+    width: 520px;
+    height: 420px;
+    margin-top: 3em;
+  }
+  .conatiner {
+    left: 11em;
+    top: -4em;
+  }
+}
+
+@media (min-width: 920px) {
+  .hero-img img {
+    position: relative;
+    left: 20em;
+    top: -23em;
+    right: 0;
+  }
+  .conatiner {
+    left: 30em;
+    top: -27em;
+  }
+  section.hero {
+    height: auto;
+    width: 50%;
+    margin-top: 2em;
+  }
+  section.hero h1 {
+    font-size: 2.5rem;
+    margin-top: 3em;
+  }
+}
+
+@media (min-width: 1200px) {
+  .hero-img img {
+    position: relative;
+    left: 37em;
+    top: -22em;
+    right: 0;
+    background-size: cover;
+    width: 620px;
+    height: 520px;
+    margin-top: 3em;
+  }
+  .conatiner {
+    width: 25%;
+    left: 54em;
+    top: -26em;
+  }
+  section.hero {
+    height: auto;
+    width: 40%;
+    margin-top: 2em;
+    margin-left: 2em;
+    margin-right: 0;
+  }
+  section.hero h1 {
+    font-size: 3rem;
+    margin-top: 3em;
+  }
+}
+
+@keyframes introload {
+  from {
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  }
+  to {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  }
+}
+
+@keyframes moveDown {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
